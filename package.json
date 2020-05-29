@@ -6,12 +6,16 @@
     "@testing-library/jest-dom": "^4.2.4",
     "@testing-library/react": "^9.3.2",
     "@testing-library/user-event": "^7.1.2",
-    "react": "^16.13.1",
-    "react-dom": "^16.13.1",
+    "intersection-observer": "0.10.0",
+    "just-debounce-it": "1.1.0",
+    "react": "16.13.1",
+    "react-dom": "16.13.1",
+    "react-helmet": "^6.0.0",
     "react-scripts": "3.4.1",
-    "wouter": "^2.4.0"
+    "wouter": "2.4.0"
   },
   "scripts": {
+    "deploy": "vercel",
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
